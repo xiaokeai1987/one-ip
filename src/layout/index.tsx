@@ -185,13 +185,7 @@ export function AppLayout() {
             >
               GitHub
             </a>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <a href="mailto:ip@huzhihui.com">{t("联系作者")}</a>
-          </UnderlineHover>
-        </footer>
-      </div>
+
       <aside aria-label={t("站点通知")} className="update-notices">
         <AppUpdateChecker />
       </aside>
