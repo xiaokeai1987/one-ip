@@ -186,8 +186,7 @@ export function AppLayout() {
               GitHub
             </a>
           </UnderlineHover>{" "}
-          ·{" "}
-      </div>
+
       <aside aria-label={t("站点通知")} className="update-notices">
         <AppUpdateChecker />
       </aside>
