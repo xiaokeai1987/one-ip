@@ -184,7 +184,9 @@ export function AppLayout() {
               className="inline-flex items-center gap-1 align-middle"
             >
               GitHub
-              <aside aria-label={t("站点通知")} className="update-notices">
+            </a>
+          </UnderlineHover>{" "}
+        <aside aria-label={t("站点通知")} className="update-notices">
         <AppUpdateChecker />
       </aside>
       <BuildInfo />
