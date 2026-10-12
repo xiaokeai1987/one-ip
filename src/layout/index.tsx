@@ -186,9 +186,3 @@ export function AppLayout() {
               GitHub
             </a>
           </UnderlineHover>{" "}
-           </aside>
-      <BuildInfo />
-      <Toaster richColors theme={resolvedTheme} position="top-right" />
-    </>
-  );
-}
